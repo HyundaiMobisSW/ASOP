@@ -45,6 +45,6 @@ git commit -m "feat : 몇주차 문제플랫폼 문제번호 문제유형 문제
 * Pull Request 를 작성할 때 제목에는 ""을 작성한다.
 
 ```
-4weeks all solved
+4weeks (Tues Or Thur) all solved
 ```
 
