@@ -8,7 +8,6 @@ int res_arr[100][50];
 int flag = 0, flag_re = 0;
 
 using namespace std;
-// 3 2 3 3 2 1 1 1 4 4 3 2 3 3 2 1 1 1 4
 int main(){
     freopen("input.txt", "r", stdin);
     cin >> N;
