@@ -13,10 +13,9 @@ int main(){
         cin >> arr[i];
     }
     for(int i = 0; i < N; i++){
-        //cout << DP[i] << " ";
         DP[i] = arr[i];
     }
-    //DP[0] = arr[0];
+    
     for(int j = 0; j < N; j++){
         for(int i = j+1; i < N; i++){
             if(arr[i] > arr[j] && DP[j] + arr[i] > DP[i]){
