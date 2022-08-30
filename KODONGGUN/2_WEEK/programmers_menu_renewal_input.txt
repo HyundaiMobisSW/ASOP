@@ -1,0 +1,4 @@
+["ABCFG", "AC", "CDE", "ACDE", "BCFG", "ACDEH"]	[2,3,4]	["AC", "ACDE", "BCFG", "CDE"]
+["ABCDE", "AB", "CD", "ADE", "XYZ", "XYZ", "ACD"]	[2,3,5]	["ACD", "AD", "ADE", "CD", "XYZ"]
+["XYZ", "XWY", "WXA"]	[2,3,4]	["WX", "XY"]
+["ABCDE", "ABCDE", "ABCDE", "ABCDE", "ABCDE", "ABCDE", "ABCDE"]	[2, 3, 5]	["AB", "ABC", "ABCDE", "ABD", "ABE", "AC", "ACD", "ACE", "AD", "ADE", "AE", "BC", "BCD", "BCE", "BD", "BDE", "BE", "CD", "CDE", "CE", "DE"]
