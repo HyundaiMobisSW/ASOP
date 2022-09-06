@@ -27,7 +27,7 @@ void solve() {
 				totalCar.pop();
 				if (totalCar.empty()) break;
 			}
-			if ((wayCar[0].empty() & wayCar[1].empty() & wayCar[2].empty())) curTime = totalCar.front().time - 1;
+			if ((wayCar[0].empty() & wayCar[1].empty() & wayCar[2].empty() & wayCar[3].empty())) curTime = totalCar.front().time - 1;
 		}
 		//각 차로에서 나가야하는 차들 판별 각 차로당 1초에 하나씩
 		int out[4];
