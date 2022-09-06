@@ -20,4 +20,3 @@ int main(){
     cout << res[N] << " ";
     return 0;
 }
-
