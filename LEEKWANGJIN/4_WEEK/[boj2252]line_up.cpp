@@ -20,14 +20,10 @@ void topologySort() {
         if(indegree[i] == 0) q.push(i);
     }
     for(int i = 1; i <= N; i++){
-        if(q.empty()){
-            cout << 123;
-            return;
-        }
         int x = q.front();
         q.pop();
         result[i] = x;
-        for(int i = 0; i < v[x].size();i++){
+        for(int i 2= 0; i < v[x].size();i++){
             int y = v[x][i];
             if(--indegree[y] == 0) q.push(y);
         }
