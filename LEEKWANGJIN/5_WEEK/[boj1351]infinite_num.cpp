@@ -7,7 +7,6 @@ long long N, P, Q;
 map<long long, long long> m;
 
 long long DFS(long long N){
-    if(N == 0) return 1;
     if(m.count(N)) return m[N];
     return m[N]= DFS(N/P) + DFS(N/Q);
 }
@@ -17,7 +16,7 @@ int main(){
     freopen("input.txt", "r", stdin);
     
     cin >> N >> P >> Q;
-
+    m[0] = 1;
     cout << DFS(N)<< '\n';
     return 0;
 }
