@@ -24,6 +24,9 @@ void getEndPoint(int curVer, int curDist) {
 	}
 }
 
+//한 번 = 끝 점
+//두번째 = 지름 구하기
+
 int main()
 {
 	cin >> v;
