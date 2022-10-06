@@ -21,24 +21,6 @@ unordered_map<int, pair<int,int>> direction {
     {2, {1, 0}},     // d
 };
 
-
-int findDirection(pair<int,int> front, pair<int,int> rear)
-{
-    int dr = front.first - rear.first;
-    int dc = front.second - rear.second;
-    if (dr == 0)
-    {
-        if      (dc == 1)   return 0; // { {0, 1}, 0},     // r
-    }
-    else if (dr == 1)
-    {
-        if      (dc == 1)   return 1; // { {1, 1}, 1},     // dr
-        else if (dc == 0)   return 2; // { {1, 0}, 2},     // d
-    }
-
-    return -1; //error
-}
-
 void init()
 {
     cin >> N;
@@ -140,6 +122,7 @@ int dfs(ITEM cur)
 
 int main()
 {
+    
     init();
     cout << dfs({{0,1}, {0,0}, 0}) << endl;   
     return 0;
